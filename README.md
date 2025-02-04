@@ -7,6 +7,19 @@ Interact with a IEx terminal inside neovim for a better experience!
 - Open an IEx terminal inside nvim.
 - Send commands to the IEx terminal from your current buffer.
 
+## Quick installation
+
+### Lazy
+
+```lua
+{ 
+  'victor23k/iex.nvim',
+  config = function ()
+    require("iex").setup()
+  end
+}
+```
+
 ## How to use
 
 Start with
